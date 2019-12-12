@@ -1,0 +1,662 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: #2D2F4F;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 15px;
+}
+
+h4 {
+    width: 100%;
+}
+
+h4.footerNews {
+    color: white !important;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.mainBluebackground {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: cover;
+    padding-bottom: 10%;
+    background-color: #2D2F4F;
+}
+
+/*Landing Part*/
+.landing {
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 550px;
+    border-radius: 0% 0% 1% 1%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.menu{
+ position: absolute;
+ top: -10px;
+ right: 10px;
+}
+
+.landingIntro {
+    position: absolute;
+    top: 80px;
+    width: 45%;
+    height: 50%;
+    margin-left: 5%;
+    line-height: 1.2rem;
+}
+
+.landingSeeall {
+    position: absolute;
+    bottom: 0.1%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-size: 16pt;
+}
+
+/*HAMBURGER MENU*/
+.hamburger {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hamburger2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#myLinks {
+    width: 100%;
+    background-color: white;
+    flex-wrap: nowrap;
+    opacity: 0.8;
+    margin-top: 30px;
+    white-space: nowrap;
+}
+
+.hamburger #myLinks {
+    display: none;
+}
+
+.hamburger a {
+    color: #2D2F4F;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.hamburger a.icon {
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/*Backgrounds*/
+.whiteBackground {
+    position: relative;
+    display: flex;
+    align-content: space-between;
+    width: 95%;
+    background-color: white;
+    border-radius: 1%;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.whiteBackground2 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    background-color: white;
+    border-radius: 1%;
+    margin-bottom: 20px
+}
+
+.fullWhitebackground {
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    padding: 2% 5% 0% 5%;
+}
+
+.productWhiteBackground {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    background-color: white;
+    border-radius: 1%;
+    flex-direction: row;
+
+}
+
+.productSecond {
+    width: 40%;
+}
+
+.productFullWhitebackground {
+    width: 100%;
+    background-color: white;
+    padding: 2% 5% 0% 5%;
+}
+
+
+/*Intro*/
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.introTextContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    padding-top: 10px;
+    border: 5%;
+    margin: 0 auto;
+}
+
+.introTopText {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    width: 80%;
+    text-align: center;
+
+}
+
+.introBottomText {
+    width: 80%;
+    text-align: center;
+}
+
+.circle {
+    display: inline-block;
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    top: -13%;
+    left: calc(50% - 90px);
+    border-radius: 50%;
+    background: url(Images/DrBronner.png);
+    background-size: 100%;
+}
+
+.specials {
+    border-bottom: 1px solid #2D2F4F;
+}
+
+
+/*Product JS*/
+button {
+    background-color: transparent;
+    border: none;
+    color: #2D2F4F;
+    font-size: 18pt;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 100%;
+}
+
+.productJS {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftButton {
+    width: 40px;
+    height: 40px;
+}
+
+.rightButton {
+    width: 40px;
+    height: 40px;
+}
+
+#productImages {
+    height: 300px;
+    justify-content: center;
+}
+
+.productFull {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.productFullImage img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+/*Product Page*/
+.productFullWhitebackground {
+    margin-top: 20px;
+}
+
+
+.productTop {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.productContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.productSecond {
+    width: 50%;
+
+}
+
+.productSecond p {
+    width: 100%;
+    color: #2D2F4F;
+}
+
+.productThird {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.productDesc {
+    width: 50%;
+    margin: 0;
+    line-height: 20px;
+}
+
+.productCart {
+    width: 50%;
+    margin: 0;
+    line-height: 20px;
+}
+
+.productLiquidsoap img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.product-details {
+    margin-top: 30px;
+}
+
+.product-image {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.productOption {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+
+select {
+    border: 1pt solid #2D2F4F;
+    background-color: transparent;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #2D2F4F;
+    margin: 5px;
+    line-height: 1.3;
+    height: 50px;
+}
+
+.quantityContainer input{
+    width: 50px;
+    border: 1pt solid #2D2F4F;
+    border-radius: 1%;
+    background-color: transparent;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #2D2F4F;
+    margin: 5px;
+    line-height: 1.3;
+    height: 50px;
+}
+
+.suggestedUsage {
+    width: 100%;
+}
+
+.suggestedContent{
+    width:100%;
+}
+
+.ingredients {
+    width: 100%;
+}
+
+.productIngredientContent p{
+    line-height: 1.5rem;
+}
+
+.suggestedContent p{
+    line-height: 1.5rem;
+}
+
+
+
+/*footer*/
+.footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.footer h4 {
+    color: white;
+}
+
+.footerEmail {
+    width: 95%;
+}
+
+input {
+    width: 50vw;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.6;
+    font-size: 15pt;
+}
+
+.footerMenu {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 95%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.footerText {
+    width: 90vw;
+    line-height: 15pt;
+}
+
+.footerCopyrightGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.footerCopyrightGroup p {
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.footerCopyrightGroup p:last-child {
+    margin-right: 0;
+}
+
+.footerCopyright h5 {
+    white-space: nowrap;
+}
+
+.whiteline {
+    background-color: white;
+    margin-bottom: 2px;
+    padding: 20px 0 20px 20px;
+    border-radius: 1%;
+}
+
+.footer p {
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.footer h5 {
+    color: white;
+}
+
+.footerLabel h2 {
+    color: white;
+}
+
+a:visited {
+    color: #2D2F4F;
+}
+
+a:hover {
+    color: #2D2F4F;
+  }
+  
+
+
+@media only screen and (max-width: 700px) {
+    .landing {
+        background: url(Images/MobileBackground.jpg);
+        
+        min-height: 110vw;
+        background-size: 100%;
+    }
+
+    .productFull {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .landing {
+        background: url(Images/WebBackground.png);
+        background-position: right;
+        background-size: cover;
+        min-height: 100%;
+    }
+
+    
+/*
+    .landingSeeall{
+        position: absolute;
+        top: 300px;
+        transform: translate(-50%, -50%);
+        left: 90px;
+    }
+*/
+
+    .introduction {
+        width: 95%;
+        justify-content: space-between;
+        margin: 0 auto;
+  
+    }
+
+    .whiteBackground {
+        display: flex;
+        width: 47vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .whiteBackground2 {
+        display: flex;
+        width: 47vw;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    .landingIntro {
+        width: 25%;
+        height: 50%;
+        margin-left: 30px;
+        line-height: 1.2rem;
+    }
+
+    input {
+        width: 30vw;
+    }
+
+    .productJS {
+        display: none;
+    }
+
+    .productFullWhitebackground {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        width: 100%;
+    }
+
+    .productSuggestedContainer {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    
+
+    .productIngredientContainer {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+}
+
+/*
+@media only screen and (min-width: 1800px) {
+.landing{ 
+    height: 90vh;
+}
+}*/
+
+@media only screen and (min-width: 1000px) {
+
+    .landingIntro {
+        width: 40%;
+        height: 50%;
+        margin-left: 30px;
+        line-height: 1.2rem;
+    }
+
+    .footerMenu {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 45%;
+        white-space: nowrap;
+    }
+
+    .mainMenu {
+        position: absolute;
+        top: 10px;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 45%;
+        white-space: nowrap;
+    }
+
+    .whiteline {
+        background-color: transparent;
+        color: white;
+    }
+
+    .productFullWhitebackground {
+        display: flex;
+        flex-direction: row;
+        padding-left: 100px; 
+        padding-right: 100px;
+    }
+
+    .footerEmail {
+        width: 45vw;
+    }
+
+    .footerMenu {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 45%;
+        height: 200px;
+        white-space: nowrap;
+    }
+
+    .footerText {
+        width: 45vw;
+    }
+
+    .footerText p {
+        width: 30vw;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+
+    .footerCopyright {
+        width: 45%;
+        text-align: right;
+    }
+
+    .footerCopyrightGroup {
+        justify-content: flex-end;
+    }
+
+    .productWhiteBackground {
+        display: row;
+    }
+
+    .product-details {
+        width: 50%;
+    }
+
+    .product-image {
+        width: 30%;
+    }

@@ -1,0 +1,147 @@
+<doctype><DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Dr Bronners</title>
+    </head>
+
+    <body onload="currentProductImage()">
+
+        <div class="mainBluebackground">
+            <div class="landing">
+                <!--background image-->
+                <!--menu-->
+                <nav class="hamburger">
+                    <a href="index.html" class="logo"><h1>DR.BRONNERS</h1></a>
+
+                    <div id="myLinks">
+                        <a href="#news">Cart</a>
+                        <a href="#news">About</a>
+                        <a href="#contact">Log In</a>
+                        <div></div>
+                        <a href="product.html">Liquid Soaps</a>
+                        <a href="#about">Sugar Soaps</a>
+                        <a href="#about">Bar Soaps</a>
+                        <a href="#about">Shaving Soaps</a>
+                    </div>
+
+                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <img src="Images/Hamburger.png" width="50px"></a>
+                </nav>
+
+                <p class="landingIntro">Makers of Pure-Castile Soap. We are socially and 
+                    environmentally responsible, and practice fair-trade.</p>
+
+                <h5 class="landingSeeall"><a href="">See All Products</a></h5>
+    
+            </div>
+
+            <!--Introduction-->
+            <div class="introduction">
+                <div class="whiteBackground">
+                        <!--Circle-->
+                        <span class="circle"></span>
+                        <!--text-->
+                        <div class="introTextContainer">
+                            <div class="introTopText">
+                                <p>DR. BRONNER’S MAKES</p>
+                                <h3>PURE-CASTILE SOAP</h3>
+                                <p>HAIR AND BODY CARE PRODUCTS OF THE HIGHEST QUALITY.</p>
+                                <p>We’re committed to socially and environmentally responsible products</p>
+                                <a href=""> Learn More </a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="whiteBackground2">
+                    <div class="introTextContainer">
+                            <div class="introBottomText">
+                                <h3>Family Soapmakers</h3>
+                                <h3>SINCE 1858.</h3>
+                                <p>Read about the Cosmic Principles that guide us in everything we do.</p>
+                            </div>
+                        </div>
+
+            </div>
+            </div>
+
+            <div class="fullWhitebackground">
+                <div class="specials">
+                    <p><b>15% OFF <br> Monthly Specials ></b></p>
+                </div>
+
+                <div class="product">
+                    <h4>Product Categories</h4>
+                        <div class="productJS">
+                            <div class="leftButton">
+                                <button onclick="leftImage()" class="leftButton">&lt;</button> 
+                            </div>
+                            <div class="images">
+                                <a id ="currentClick"><img id="productImages"/></a>
+                            </div>
+                            <div class="rightButton">
+                                <button onclick="rightImage()" class="rightButton">&gt;</button>
+                            </div>
+                        </div>
+
+                        <div class="productFull">
+                            <div class="productFullImage">
+                                <a href="product.html"> <img src="Images/Liquidsoap.jpg" alt="Liquid Soap Image" ></a>
+                            </div>
+
+                            <div class="productFullImage">
+                                    <img src="Images/Sugarsoap.jpg" alt="Sugar Soap Image" >
+                            </div>
+
+                            <div class="productFullImage">
+                                    <img src="Images/Barsoap.jpg" alt="Bar Soap Image" >
+                            </div>
+
+                            <div class="productFullImage">
+                                    <img src="Images/Shavingsoap.jpg" alt="Bar Soap Image" >
+                            </div>
+
+                        </div>
+                </div>
+            </div>
+
+            <!--footer-->
+            <div class="footer">
+                 <div class="footerEmail">
+                    <h4>JOIN OUR NEWS LETTER</h4>
+                        <form>
+                            <input type= "email" name= "email" placeholder="EMAIL ADDRESS">
+                        </form>
+                 </div>
+
+            <!--menu-->
+                <div class="footerMenu">
+                    <div class="whiteline">Dr. Bronner's</div>
+                    <div class="whiteline">Shop</div>
+                    <div class="whiteline">Purchasing Info</div>
+                    <div class="whiteline">Support</div>
+                </div>
+
+                <div class="footerText">
+                    <p>In all we do, let us be generous, fair & loving 
+                    to Spaceship Earth and all its inhavitants.<b> For we’re All-One or None! All-One!</b></p>
+                </div>
+
+                <div class="footerCopyright">
+                    <div class="footerCopyrightGroup">
+                        <p><u>Privacy Policy</u></p>
+                        <p><u>Terms of Use</u></p>
+                    </div>
+                    <h5>2019 Dr. Bronner’s Magic Soaps</h5>
+                </div>
+            </div>
+
+        
+    
+    
+    </body>
+</html>
+</doctype>
